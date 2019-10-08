@@ -178,7 +178,7 @@ def player_stats(players_name)
     team.each do |attribute, data|
       if attributes == :players
         data.each do |player|
-          if player[:player_name] == players_name 
+          if player[:player_name] == players_name
             new_hash = player
           end
         end
